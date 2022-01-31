@@ -1,0 +1,28 @@
+////   BUILDING OF THE PROJECT   ////
+
+The project is built and run typing:
+$ . install.sh <path name>  !!! BEWARE OF THE LACK OF SLASH BEFORE INSTALL COMMAND !!!
+$ ./run.sh <program> <size of array in KB> <size of buffer (only shared memory)>
+      note that: 2 for named pipe | 4 for shared memory
+
+To initiate help file, the commands can be used as
+./help.sh   (to view project description file) or
+./help.sh <program (optional)>    (2 for named pipe | 4 for shared memory)
+
+This project consists of 2 sub-programs (named pipe, and shared memory with circular memory)
+The objective of this project including:
+  -To benchmark the inter process communication (IPC) with given size of array
+  -To learn how to implement IPC in each method
+
+The result of IPC was reported in table below:
+----------------------------------------------------------------------------------------------------------------------------
+|         Methods       |       Run time 1st PC [s]  (1MB, 100MB)        |         Run time 2nd PC [s] (1MB, 100MB)        |
+----------------------------------------------------------------------------------------------------------------------------
+| Named pipe            |               0.00075 0.0213                   |                 0.0030  0.093                   |
+| Shared memory with CB |               0.00110 0.0594                   |                 0.0017, 0.077                   |
+----------------------------------------------------------------------------------------------------------------------------
+Test condition: Size of array = 1 MB and 100 MB, Type of data = Integer (4 bytes), (Circular buffer size 64 KB)
+*First PC:  Intel core i7-8750H with ram 16 GB DDR 4 2667 MHz and Intel NVME ssd
+*Second PC: Intel core i7-6700HQ wth ram 16 GB DDR 4 2667 MHz & Samsung NVME ssd (970PRO)
+
+--end of help--
