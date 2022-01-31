@@ -1,7 +1,9 @@
-# ARP_second_Ebru
+IPC Speed Test
+=====================
 This repository includes files to perform a speed test using different IPC elements, named pipes and shared memory namely.
 
-How to install
+Installing and running
+----------------------
 
 User can specify which folder to install the files into by typing
 ```bash
