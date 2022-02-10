@@ -1,4 +1,3 @@
-clear
 if [[ "$1" == "2" ]];
 then
 	cd $TESTVAR

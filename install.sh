@@ -1,4 +1,3 @@
-clear
 pwd=$(pwd)
 unzip project_files -d /tmp/not
 mkdir $1
