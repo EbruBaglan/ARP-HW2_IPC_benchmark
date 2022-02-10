@@ -4,7 +4,10 @@ This repository includes files to perform a speed test using named pipes and sha
 
 Installing and running
 ----------------------
-
+Before running anything, user should hit
+```bash
+$ chmod +x *.sh
+```
 User can specify which folder to install the files into by typing
 ```bash
 $ . install.sh <pathname>
