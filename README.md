@@ -1,6 +1,7 @@
-IPC Speed Test
+InterProcess Communication Benchmark
 =====================
-This repository includes files to perform a speed test using named pipes and shared memory.
+This repository includes files to perform a speed test between named pipes and shared memory.
+This was made for Advanced Robot Programming course of UniGe.
 
 Installing and running
 ----------------------
