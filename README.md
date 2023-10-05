@@ -3,9 +3,12 @@ Interprocess Communication Benchmark for Named Pipes and Shared Memory
 This repository includes files to perform a speed test between named pipes and shared memory.
 This was made for Advanced Robot Programming course of UniGe.
 
-Cloning the repo for firts-time users
+Cloning the repo for first-time users
 ----------------------
-
+Choose a directory to work in, then clone the repo by typing
+```bash
+git clone https://github.com/EbruBaglan/IPC_benchmark
+```
 
 Installing and running
 ----------------------
