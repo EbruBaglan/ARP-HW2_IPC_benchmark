@@ -14,7 +14,7 @@ Installing and running
 ----------------------
 After cloning the repo, just hit
 ```bash
-chmod +x *.sh
+cd IPC_benchmark && chmod +x *.sh
 ```
 to make .sh files executable. 
 
