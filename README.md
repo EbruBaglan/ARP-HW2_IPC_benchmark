@@ -18,11 +18,7 @@ cd IPC_benchmark && chmod +x *.sh
 ```
 to make .sh files executable. 
 
-Then, specify the folder to install the files into by typing
-```bash
-. install.sh <pathname>
-```
-For instance
+Then, specify the folder to install the files into by typing `. install.sh <pathname>`. For instance
 ```bash
 . install.sh ./fileshere
 ```
