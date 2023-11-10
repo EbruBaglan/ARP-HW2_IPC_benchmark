@@ -32,5 +32,5 @@ Number 2 is specified to select 'named pipe'. (In later implementations 1 is use
 For the shared memory scenario, the circular buffer size should also be specified as the fourth argument. For a size of 2KB circular buffer, type 
 ```bash
 ./run.sh 4 102400 2
-
+```
 The results are somehow perplexing as the shared memory seems slower than the named pipe. In reality, it should be the other way around. The investigation is still going on.
